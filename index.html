@@ -6,9 +6,9 @@
     </title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/8124de6b42.js" crossorigin="anonymous"></script>
+    <script defer type="text/javascript" src='script.js'></script>
 </head>
 <body>
-
     <header id="body-header" class="text-center">
         <nav>
         <ul class='horizontal-list nav-bar'>
@@ -21,12 +21,12 @@
             <li>
                 <a href='#skills'>Skills</a>
             </li>
-            <li>
-                <a href='#experience'>Experience</a>
-            </li>
             <!-- <li>
-                <a href='#'>Education</a>
+                <a href='#experience'>Experience</a>
             </li> -->
+            <li>
+                <a href='#education'>Education</a>
+            </li>
             <li>
                 <a href='#portfolio'>Portfolio</a>
             </li>
@@ -71,32 +71,50 @@
             </h1>
             <div class='skill-display'>
                 <div class='skill-progress'>
-                    <div class='skill-name per80'>
+                    <div data-skill='80' class='skill-name per80'>
                         <span>C++</span>
                     </div>
                 </div>
 
                 <div class='skill-progress'>
-                    <div class='skill-name per40 col-orange'>
+                    <div data-skill='40' class='skill-name per40 col-orange'>
                         <span>ML</span>
                     </div>
                 </div>
 
                 <div class='skill-progress'>
-                    <div class='skill-name per80'>
+                    <div data-skill='80' class='skill-name per80'>
                         <span>Javascript</span>
                     </div>
                 </div>
 
                 <div class='skill-progress'>
-                    <div class='skill-name per80 col-blue'>
+                    <div data-skill='80' class='skill-name per80 col-blue'>
                         <span>Python</span>
                     </div>
                 </div>
 
                 <div class='skill-progress'>
-                    <div class='skill-name per60 col-green'>
+                    <div data-skill='60' class='skill-name per60 col-orange'>
                         <span>C</span>
+                    </div>
+                </div>
+
+                <div class='skill-progress'>
+                    <div data-skill='80' class='skill-name per80 col-green'>
+                        <span>NodeJs</span>
+                    </div>
+                </div>
+
+                <div class='skill-progress'>
+                    <div data-skill='80' class='skill-name per80 col-blue'>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+
+                <div class='skill-progress'>
+                    <div data-skill='60' class='skill-name per60 col-red'>
+                        <span>ReactJS</span>
                     </div>
                 </div>
 
@@ -104,12 +122,12 @@
 
         </section>
 
-        <section id="experience">
+        <section id="education">
             <h1 class='section-heading'>
             <span>
               <i class="fas fa-briefcase"></i>
             </span>
-            <span class='mb30 pl10'>Education & Experience</span>
+            <span class='mb30 pl10'>Education</span>
             </h1>
             <div class='exp-display'>
                 <div class='exp-data'>
@@ -139,7 +157,7 @@
             <span>
                 <i class="fab fa-atlassian"></i>
             </span>
-            <span class='mb30 pl10'>Portfolio</span>
+            <span class='mb30 pl10'>Projects</span>
             </h1>
             <div class='port-display'>
                 <div class='port-img'>
@@ -170,12 +188,12 @@
 
         </section>
 
-        <section id="contact" class='mb30'>
+        <section id="contact" class=''>
              <h1 class='section-heading'>
             <span>
                 <i id='white' class="fas fa-id-card-alt"></i>
             </span>
-            <span id='white' class='mb30 pl10'>Contacts</span>
+            <span id='white' class='mb30 pl10'>Contact</span>
             </h1>
         <div class='contact-display'>
             <div class='contact-form'>
