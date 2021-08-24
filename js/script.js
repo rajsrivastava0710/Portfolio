@@ -61,7 +61,6 @@ function checkScroll(){
 	})
 }
 
-
 function fillEachBar(bar){
 	let currentWidth = 0;
 	let targetWidth = bar.getAttribute('data-skill');
@@ -88,3 +87,59 @@ for(let bar of skillBar){
 	}
 }
 
+// if ($(".text-slider").length == 1) {
+              
+// 	var typed_strings = 
+// 		$(".text-slider-items").text();
+
+// 	var typed = new Typed(".text-slider", {
+// 		strings: typed_strings.split(", "),
+// 		typeSpeed: 50,
+// 		loop: true,
+// 		backDelay: 900,
+// 		backSpeed: 30,
+// 	});
+// }
+// new TypeIt(".text-slider-items", {
+// 	strings: "Hello Viewer &#128515;",
+// 	speed: 200,
+// 	waitUntilVisible: true,
+//   }).go();
+	let color = ["darkblue","red","greenyellow","yellow","orange"];
+	function getRandomColor() {
+		var idx = Math.floor(Math.random() * 5);
+		return color[idx];
+	}
+  const instance = new TypeIt(".text-slider-items", {
+	strings: ["Hello Viewer &#128515;"],
+	speed: 200,
+	waitUntilVisible: true,
+	afterStep: function (instance) {
+	  instance.getElement().style.color = getRandomColor();
+	},
+  }).go();
+
+//   var cw = $('.child').width();
+	var element = document.querySelector('.exp-data')
+	var cw = element.style.width;
+	element.style.height = cw + "px";
+
+// $('.child').css({'height':cw+'px'});
+
+  new TypeIt(".intro-text", {
+		// strings: "I am currently working at Tata Consultancy Services as a System Engineer. <br> I enjoy solving algorithmic problems and have made some Full Stack Web Development projects using majorly MERN stack.",
+		speed: 45,
+		waitUntilVisible: true,
+	})
+	.type("I am currently working at Tata Consultancy Services as a System Engineer",{ delay: 300 })
+	.delete(72)
+	.type("I enjoy solving problems",{delay:200})
+	.move(-8)
+	.type("algorithmic ")
+	.move(null, { to: "END" })
+	.type(" and have made some Full Stack Web Development projects using majorly MERN stack.",{delay:400})
+	.delete(117)
+	.pause(300)
+	// .delay(400)
+	.type("Ok, Now you may proceed &#128521;")
+	.go()

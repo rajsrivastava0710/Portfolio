@@ -4,9 +4,8 @@
     <title>
         My Resume
     </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/8124de6b42.js" crossorigin="anonymous"></script>
-    <script defer type="text/javascript" src='script.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/cube.css">
 </head>
 <body>
     <header id="body-header" class="text-center">
@@ -21,14 +20,17 @@
             <li>
                 <a href='#skills'>Skills</a>
             </li>
-            <!-- <li>
+            <li>
                 <a href='#experience'>Experience</a>
-            </li> -->
+            </li>
             <li>
                 <a href='#education'>Education</a>
             </li>
             <li>
-                <a href='#portfolio'>Portfolio</a>
+                <a href='#portfolio'>Projects</a>
+            </li>
+            <li>
+                <a href='#coding-profiles'>CodingProfiles</a>
             </li>
             <li>
                 <a href='#contact'>Contact</a>
@@ -42,13 +44,19 @@
         </div>
         <div>
             <ul class='horizontal-list social-icons text-center'>
-                <li><a href=''><i class="fab fa-facebook"></i></a> </li>
-                <li><a href=''><i class="fab fa-google-plus-g"></i> </a></li>
-                <li><a href=''> <i class="fab fa-linkedin"></i></a></li>
-                <li><a href=''> <i class="fab fa-github"></i></a></li>
-                <li><a href=''> <i class="fab fa-quora"></i></a></li>
+                <li><a href='https://www.facebook.com/Rj7.champ.10/' target='__blank'><i class="fab fa-facebook" style="color: #165be6;"></i></a> </li>
+                <li><a href='mailto:rajsriv.14@gmail.com' target='__blank'><i class="fab fa-google-plus-g" style="color: #d64e42;"></i> </a></li>
+                <li><a href='https://www.linkedin.com/in/raj-srivastava-a1ba88133/' target='__blank'> <i class="fab fa-linkedin" style="color: #0a66c2;"></i></a></li>
+                <li><a href='https://github.com/rajsrivastava0710' target='__blank'> <i class="fab fa-github" style="color: #000000;"></i></a></li>
+                <!-- <li><a href=''> <i class="fab fa-quora"></i></a></li> -->
             </ul>
         </div>
+        <div style='display: flex;'></div>
+        <span class="wave">👋</span>
+        <span class="text-slider-items" style="opacity: .5;">
+        </span>
+        </div>
+        <!-- <strong class="text-slider"></strong> -->
     </div>
     </header>
     <main>
@@ -57,17 +65,16 @@
             <div id='my-img'>
             <img src='image/my-pic.jpg'>
        </div>
-       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+       <p class='intro-text'>
        </p>
         </section>
 
         <section id="skills">
-            <h1 class='section-heading'>
+            <h1 class='section-heading' style="margin-bottom: -22px;">
             <span>
                 <i class="fas fa-chalkboard-teacher"></i>
             </span>
-            <span class='mb30'>Skills</span>
+            <span class='mb30 pl10'>Skills</span>
             </h1>
             <div class='skill-display'>
                 <div class='skill-progress'>
@@ -77,8 +84,8 @@
                 </div>
 
                 <div class='skill-progress'>
-                    <div data-skill='40' class='skill-name per40 col-orange'>
-                        <span>ML</span>
+                    <div data-skill='60' class='skill-name per60 col-orange'>
+                        <span>C</span>
                     </div>
                 </div>
 
@@ -90,31 +97,55 @@
 
                 <div class='skill-progress'>
                     <div data-skill='80' class='skill-name per80 col-blue'>
-                        <span>Python</span>
+                        <span>DSA</span>
                     </div>
                 </div>
 
                 <div class='skill-progress'>
-                    <div data-skill='60' class='skill-name per60 col-orange'>
-                        <span>C</span>
-                    </div>
-                </div>
-
-                <div class='skill-progress'>
-                    <div data-skill='80' class='skill-name per80 col-green'>
+                    <div data-skill='70' class='skill-name per70 col-green'>
                         <span>NodeJs</span>
-                    </div>
-                </div>
-
-                <div class='skill-progress'>
-                    <div data-skill='80' class='skill-name per80 col-blue'>
-                        <span>MongoDB</span>
                     </div>
                 </div>
 
                 <div class='skill-progress'>
                     <div data-skill='60' class='skill-name per60 col-red'>
                         <span>ReactJS</span>
+                    </div>
+                </div>
+
+                <div class='skill-progress'>
+                    <div data-skill='70' class='skill-name per70 col-blue'>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+
+                <div class='skill-progress'>
+                    <div data-skill='70' class='skill-name per70 col-green'>
+                        <span>HTML</span>
+                    </div>
+                </div>
+
+                <div class='skill-progress'>
+                    <div data-skill='70' class='skill-name per70 col-blue'>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+                <div class='skill-progress'>
+                    <div data-skill='75' class='skill-name per75 col-orange'>
+                        <span>Swift</span>
+                    </div>
+                </div>
+
+                <div class='skill-progress'>
+                    <div data-skill='40' class='skill-name per40 col-green'>
+                        <span>SwiftUI</span>
+                    </div>
+                </div>
+
+                <div class='skill-progress'>
+                    <div data-skill='40' class='skill-name per40 col-orange'>
+                        <span>ML</span>
                     </div>
                 </div>
 
@@ -131,29 +162,98 @@
             </h1>
             <div class='exp-display'>
                 <div class='exp-data'>
+                    <div class='exp-row'>
+                        Bachelors of Technology
+                    </div>
+                    <div class='exp-row' style= 'background: #70ca70;'>
+                        Kamla Nehru Institute of Technology, Sultanpur
+                    </div>
+                    <div class='exp-row' style='background: #fbceac;'>
+                        2016 - 2020
+                    </div>
+                    <div class='exp-row' style='background: #f1e1e1;'>
+                        CSE
+                    </div>
+                    <div class='exp-row' style='background: #87b5d8;font-family: monospace;'>
+                        76.7%
+                    </div>
                 </div>
                 <div class='exp-data'>
+                    <div class='exp-row'>
+                        Intermediate
+                    </div>
+                    <div class='exp-row' style= 'background: #70ca70;'>
+                        St. Xavier's School, Basti
+                    </div>
+                    <div class='exp-row' style='background: #fbceac;'>
+                        2014 - 2015
+                    </div>
+                    <div class='exp-row' style='background: #87b5d8;font-family: monospace;'>
+                        92.8%
+                    </div>
                 </div>
                 <div class='exp-data'>
-                </div>
-                <div class='exp-data'>
-                </div>
-                <div class='exp-data'>
+                    <div class='exp-row'>
+                        HighSchool
+                    </div>
+                    <div class='exp-row' style= 'background: #70ca70;'>
+                        St. Xavier's School, Basti
+                    </div>
+                    <div class='exp-row' style='background: #fbceac;'>
+                        2012 - 2013
+                    </div>
+                    <div class='exp-row' style='background: #87b5d8;font-family: monospace;'>
+                        10 CGPA
+                    </div>
                 </div>
                 <div class='plane-divider'>
                     <div class='traveller'>
-                <i id='big-icon' class="fas fa-plane"></i>
+                <i class="fas fa-plane big-icon"></i>
                     </div>
                 </div>
             </div>
         </section>
 
-       <!--  <section id="education">
-
-        </section> -->
+        <section id="experience">
+            <h1 class='section-heading'>
+            <span>
+              <i class="fas fa-briefcase"></i>
+            </span>
+            <span class='mb30 pl10'>Experience</span>
+            </h1>
+            <div class='exp-display'>
+                <div class='exp-data'>
+                    <div class='exp-row'>
+                        System Engineer
+                    </div>
+                    <div class='exp-row' style='background: #f1e1e1;'>
+                        Tata Consultancy Services
+                    </div>
+                    <div class='exp-row' style='background: #70ca70;font-family: monospace;'>
+                        August 2020 - Present
+                    </div>
+                </div>
+                <div class='exp-data'>
+                    <div class='exp-row'>
+                        Teaching Assistant - Web Development
+                    </div>
+                    <div class='exp-row' style='background: #f1e1e1;'>
+                        Coding Ninjas
+                    </div>
+                    <div class='exp-row' style='background: #70ca70;font-family: monospace;'>
+                        April 2020 - August 2020
+                    </div>
+                </div>
+                <div class='plane-divider'>
+                    <div class='traveller'>
+                    <i class="fas fa-fighter-jet big-missile-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section id="portfolio">
-            <h1 class='section-heading'>
+            <h1 class='section-heading' style='margin-bottom: 10px;'>
             <span>
                 <i class="fab fa-atlassian"></i>
             </span>
@@ -161,70 +261,254 @@
             </h1>
             <div class='port-display'>
                 <div class='port-img'>
-                    <span>
-                        <img src='https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png'>
-                    </span>
+                    <div class='proj-img-container'>
+                        <div class='proj-img'>
+                            <img src='image/socialera.png'>
+                        </div>
+                        <div class='proj-overlay flex-c'>
+                            <div class='flex-r'>
+                            <div class='tech-stack-title'>Tech Stack</div><div class='tech-stack-value'>ExpressJS, MongoDB, HTML, Sass, JS, jQuery, Ajax, Socket.io, gulp.js</div>
+                            </div>
+                            <div>
+                            <div class='proj-desc-head'>A Social media website with major features including:</div>
+                            <ul class='proj-desc-list'>
+                                <li><strong>CRUD</strong> operations for post, comments and users.</li>
+                                <li><strong>Authentication</strong> using <strong>PassportJS</strong> (Local[<strong>Sessions/Cookie + JWT</strong>] + <strong>Social Auth</strong>).</li>
+                                <li>Proper authorisation using <strong>middlewares</strong>.</li>
+                                <li>Real time chatting using <strong>Socket.io</strong></li>
+                                <li><strong>Add Friend/Follow</strong> functionality.</li>
+                                <li><strong>E-Mail</strong> Support for <strong>account verification</strong>, <strong>password forgot</strong> and other activities using NodeMailer.</li>
+                            </ul>
+                            </div>
+                            <div class='overlay-link'>
+                                <div><a target = '__blank' href = 'https://github.com/rajsrivastava0710/Socialera'>Github</a></div>
+                                <div><a target = '__blank' href = '#'>Live Link</a> (N.A.)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='proj-name'>
+                        Socialera
+                    </div>
                 </div>
 
                 <div class='port-img'>
-                    <span>
-                        <img src='https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png'>
-                    </span>
+                    <div class='proj-img-container'>
+                        <div class='proj-img'>
+                            <img src='https://www.gauri.com/wp-content/uploads/Fotolia_101313719_Subscription_Monthly_M-planning-an-ecommerce-project-980x544.jpeg'>
+                        </div>
+                        <div class='proj-overlay flex-c'>
+                            <div class='flex-r'>
+                            <div class='tech-stack-title'>Tech Stack</div><div class='tech-stack-value'>ReactJS, Redux, CSS, JS, Firebase</div>
+                            </div>
+                            <div>
+                            <div class='proj-desc-head'>An E-Commerce Web Application with major features including:</div>
+                            <ul class='proj-desc-list'>
+                                <li>Displaying all or filtered item based on category.</li>
+                                <li>Proper Authentication (Both Local + Social Auth).</li>
+                                <li>Add to Cart and Checkout functionality.</li>
+                                <li>Passing relevant data to components via Redux</li>
+                            </ul>
+                            </div>
+                            <div class='overlay-link'>
+                                <div><a target = '__blank' href = 'https://github.com/rajsrivastava0710/E-Commerce-Web-App'>Github</a></div>
+                                <div><a target = '__blank' href = '#'>Live Link</a> (N.A.)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='proj-name'>
+                        E-Commerce Web Application
+                    </div>
                 </div>
 
                 <div class='port-img'>
-                    <span>
-                        <img src='https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png'>
-                    </span>
+                    <div class='proj-img-container'>
+                        <div class = 'proj-img'>
+                            <img src='image/library.png'>
+                        </div>
+                        <div class='proj-overlay flex-c'>
+                            <div class='flex-r'>
+                            <div class='tech-stack-title'>Tech Stack</div><div class='tech-stack-value'>ExpressJS, MongoDB, HTML, SCSS, JS, Ajax, Noty.js, Bootstrap, Socket.io</div>
+                            </div>
+                            <div>
+                            <div class='proj-desc-head'>A college library website with major features including:</div>
+                            <ul class='proj-desc-list'>
+                                <li>Admin with master controls to perform CRUD on books and users.</li>
+                                <li>Authentication using PassportJS (Local + Social).</li>
+                                <li>E-Mail Support to get notified about any book, along with Reset Password and account verification.</li>
+                                <li>Categorise and search for books.</li>
+                                <li>Details about history of all the books & users.</li>
+                            </ul>
+                            <div class='overlay-link'>
+                                <div><a target = '__blank' href = 'https://github.com/rajsrivastava0710/KNIT-Library-Project'>Github</a></div>
+                                <div><a target = '__blank' href = '#'>Live Link</a> (N.A.)</div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='proj-name'>
+                        College Library
+                    </div>
                 </div>
+
+                <!-- <div class='port-img'>
+                    <div class='proj-img-container'>
+                        <div class='proj-img'>
+                            <img src='image/todo.png'>
+                        </div>
+                        <div class='proj-overlay flex-c'>
+                            <div class='flex-r'>
+                            <div class='tech-stack-title'>Tech Stack</div><div class='tech-stack-value'>HTML, CSS, Javascript</div>
+                            </div>
+                            <div>
+                            <div class='proj-desc-head'>A To-Do List website with major features including:</div>
+                            <ul class='proj-desc-list'>
+                                <li>Ability to add a todo with task name, category and deadline.</li>
+                                <li>Ability to delete a todo</li>
+                                <li>Ability to toggle between dark and light theme/background.</li>
+                            </ul>
+                            </div>
+                            <div class='overlay-link'>
+                                <div><a target = '__blank' href = 'https://github.com/rajsrivastava0710/To-Do-List'>Github</a></div>
+                                <div><a target = '__blank' href = '#'>Live Link</a> (N.A.)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='proj-name'>
+                        To-Do Tracker
+                    </div>
+                </div> -->
 
                 <div class='port-img'>
-                    <span>
-                        <img src='https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png'>
-                    </span>
+                    <div class='proj-img-container'>
+                        <div class='proj-img'>
+                            <img src='https://academiccollegeprojects.com/wp-content/uploads/2015/07/Mini-Projects-for-Engineering-students.jpg'>
+                        </div>
+                        <div class='proj-overlay flex-c' style="align-items: center;padding: 10px;">
+                            <div class='flex-c'>
+                            <div class='tech-stack-value' style="width: 100%;margin-bottom: 10px;font-size: 1.2rem;border-bottom: 2px solid red;">List of some of the projects are:</div>
+                            <ul class='proj-desc-list' style="font-size: .95rem;">
+                                <li>ToDo Tracker using MEN Stack <a target = '__blank' href = 'https://github.com/rajsrivastava0710/To-Do-List'>[Github]</a></li>
+                                <li>Hospital Management System using Flask <a target = '__blank' href='https://github.com/rajsrivastava0710/CaseStudy'>[Github]</a></li>
+                                <li>Portfolio Website <a target = '__blank' href='https://github.com/rajsrivastava0710/Portfolio'>[Github]</a></li>
+                                <li>Blogging Website using MEN Stack <a target = '__blank' href='https://github.com/rajsrivastava0710/Blogging-App'>[Github]</a></li>
+                                <li>Movie Finder using Ajax (OMDB API) <a target = '__blank' href='https://github.com/rajsrivastava0710/Movie-FInder'>[Github]</a></li>
+                                <li>Moving Cube using CSS Animations <a target = '__blank' href='https://github.com/rajsrivastava0710/Moving-Cube'>[Github]</a></li>
+                                <li>Score Keeper, Color Guessing Game using JS <a target = '__blank' href='https://github.com/rajsrivastava0710/Guess-the-COLOR'>[Github]</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='proj-name'>
+                        Other Mini Projects
+                    </div>
                 </div>
-
+                        
             </div>
 
         </section>
 
-        <section id="contact" class=''>
-             <h1 class='section-heading'>
+        <section id = 'coding-profiles'>
+            <h1 class='section-heading' style='margin-bottom: 10px;'>
+                <span>
+                    <i id='white' class="fas fa-id-badge"></i>
+                </span>
+                <span id='white' class='mb30 pl10'>Coding Profiles</span>
+            </h1>
+            <div class='flex-r' style="width: 90%;">
+                <div class='flex-c codeProContainer' style="background-color: #e8283173;">
+                    <div class="flex-r codeProCommon" style = 'font-family: cursive; font-weight: 600; font-size: 1.3rem;'>
+                        <a target = '__blank' style = 'color: blue;' href = "https://www.codechef.com/users/rajsrivastava">Codechef</a>
+                    </div>
+                    <div class="flex-r codeProCommon" style="border-top: 2px solid #382525;">
+                        <i class="fas fa-star" style="color: blue;"></i>
+                        <i class="fas fa-star" style="color: blue;"></i>
+                        <i class="fas fa-star" style="color: blue;"></i></div>
+                    </div>
+                <div class="flex-c codeProContainer" style="background-color: #d0cb30b8;">
+                    <div class="flex-r codeProCommon" style = 'font-family: cursive; font-weight: 600; font-size: 1.3rem;'>
+                        <a target = '__blank' style='color:crimson;' href='https://leetcode.com/raj_srivastava/'>Leetcode</a>
+                    </div>
+                    <div class="flex-r codeProCommon" style="font-size: 1.2rem; color:crimson; border-top: 2px solid black;">250+ <br>problems</div>
+                </div>
+                <div class="flex-c codeProContainer" style="background-color: #00ffff85;">
+                    <div class="flex-r codeProCommon" style = 'font-family: cursive; font-weight: 600; font-size: 1.3rem;'>
+                        <a target = '__blank' style="color: #541c1c" href="https://github.com/rajsrivastava0710/">Github</a>
+                    </div>
+                    <!-- <div></div> -->
+                </div>
+                <!-- <div>
+                    <div>Codeforces</div>
+                    <div></div>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class='section-heading' style='margin-bottom: 10px;margin-top: 2px;'>
             <span>
                 <i id='white' class="fas fa-id-card-alt"></i>
             </span>
-            <span id='white' class='mb30 pl10'>Contact</span>
+            <span id='white' class='pl10'>Contact</span>
             </h1>
-        <div class='contact-display'>
-            <div class='contact-form'>
-                <form>
-                <div><input type='text' placeholder='Name'></div>
-                <div><input type='email' placeholder='E-mail'></div>
-                <div><textarea placeholder="Enter your message"></textarea></div>
-                <div><input  id='submit-btn' type='submit' value='SUBMIT'></div>
-                </form>
-            </div>
-            <div class='adress-area'>
-                <h2>Get in Touch</h2>
-                <div>
-                    For further details , visit the given social platforms to know more about this person.
+            <div class='contact-display'>
+                <div id='cube1' class='cube'>
+                    <div class='face one'>
+                        <i class="fas fa-thumbs-up" style="color: white;"></i>
+                    </div>
+                    <div class='face two'>
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <div class='face three'>
+                        <i class="fas fa-thumbs-up" style="color: white;"></i>
+                    </div>
+                    <div class='face four'>
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <div class='face five'>
+                        <i class="fas fa-thumbs-up" style="color: white;"></i>
+                    </div>
+                    <div class='face six'>
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
                 </div>
-
+            <div class='adress-area'>
+                <div>Want to get in touch !!</div>
+                <div><a target = '__blank' href='https://drive.google.com/file/d/1G7PoBviyG3dL2eYJGH1ZTPMEeNyLctSe/view' style='color: white;'>Link to my Resume</a></div>
+                <div style = 'color: rgb(22, 211, 211);font-size: 1.3rem;margin-top: 1rem;'>We can connect via :</div>
+                <div style = 'margin-top: 8px;'>
+                    <div style="margin-bottom: 6px;"><strong>E-Mail</strong> : <span style="color: white;">rajsriv.14@gmail.com</span></div>
+                    <div><strong>Mobile</strong> : <span style="color: white;">9554831603</span></div>    
+                </div>
             </div>
 
-            <div>
-            <ul class='horizontal-list social-icons text-center mt20'>
-                <li><a href=''><i id='white' class="fab fa-facebook"></i></a> </li>
-                <li><a href=''><i id='white' class="fab fa-google-plus-g"></i> </a></li>
-                <li><a href=''> <i id='white' class="fab fa-linkedin"></i></a></li>
-                <li><a href=''> <i id='white' class="fab fa-github"></i></a></li>
-                <li><a href=''> <i id='white' class="fab fa-quora"></i></a></li>
-            </ul>
-        </div>
+            <div id='cube2' class='cube'>
+                <div class='face one'>
+                    <i class="fas fa-thumbs-up" style="color: white;"></i>
+                </div>
+                <div class='face two'>
+                    <i class="fas fa-thumbs-up"></i>
+                </div>
+                <div class='face three'>
+                    <i class="fas fa-thumbs-up" style="color: white;"></i>
+                </div>
+                <div class='face four'>
+                    <i class="fas fa-thumbs-up"></i>
+                </div>
+                <div class='face five'>
+                    <i class="fas fa-thumbs-up" style="color: white;"></i>
+                </div>
+                <div class='face six'>
+                    <i class="fas fa-thumbs-up"></i>
+                </div>
+            </div>
         </div>
         </section>
 
     </main>
-
+    <!-- <script src = 'https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js'></script>   -->
+    <!-- <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   -->
+    <script src="https://unpkg.com/typeit@8.0.1/dist/index.umd.js"></script>
+    <script src="https://kit.fontawesome.com/8124de6b42.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src='js/script.js'></script>
 </body>
 </html>
