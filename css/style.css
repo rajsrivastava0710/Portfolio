@@ -354,7 +354,7 @@ margin-top: 5vh;
 .adress-area{
 	padding-left: 2rem;
 	position: relative;
-	min-width:500px;
+	/* min-width:500px; */
 	/*max-width: 80%;*/
 	height: auto;
 	overflow-wrap: break-word;
@@ -546,7 +546,16 @@ width:85%;
 	 	position: relative;
 		/* top: -45px;  */
 	}
+	.adress-area{
+		padding-left: 0;
+		text-align:center;
+	}
 	.cube{
 		display: none;
+	}
+	.contact-detail-list{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
   }
