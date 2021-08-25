@@ -131,6 +131,7 @@ section:nth-child(2n+1){
 	width: auto;
 	margin: 20px auto;
 	padding: 10px 10px;
+	text-align: center;
 }
 .section-heading span{
 	font-size: 40px;
