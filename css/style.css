@@ -192,6 +192,9 @@ section:nth-child(2n+1){
 .per40{
 	width: 40%;
 }
+.per15{
+	width:15%;
+}
 .col-orange{
 	background-color: orange;
 }
