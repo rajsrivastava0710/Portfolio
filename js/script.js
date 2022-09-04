@@ -143,7 +143,7 @@ for(let bar of skillBar){
 	.type("Full Stack ")
 	.move(null, { to: "END" })
 	.type(" and iOS/macOS based development projects.",{delay:1000})
-	.delete(129)
+	.delete(132)
 	.pause(300)
 	// .delay(400)
 	.type("Ok, Now you may proceed &#128521;")
