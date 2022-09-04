@@ -131,13 +131,13 @@ for(let bar of skillBar){
 		speed: 45,
 		waitUntilVisible: true,
 	})
-	.type("I am currently working at Tata Consultancy Services as a System Engineer",{ delay: 300 })
-	.delete(72)
+	.type("I am currently working at GeeksforGeeks as a Software Engineer",{ delay: 300 })
+	.delete(62)
 	.type("I enjoy solving algorithmic problems",{delay:200})
 	// .move(-8)
 	// .type("algorithmic ")
 	// .move(null, { to: "END" })
-	.type(" and have worked on some Backend/Frontend Web Development",{delay:200})
+	.type(" and have worked on several Backend/Frontend Web Development",{delay:200})
 	.move(-15)
 	.delete(17)
 	.type("Full Stack ")
