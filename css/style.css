@@ -497,11 +497,30 @@ width:85%;
     border: 2px solid black;
 	transition: all .5s ease-in-out;
 	margin-bottom: 12px;
+	position: relative;
+}
+
+.leetcode img{
+	position: absolute;
+	bottom: -65%;
+	left: 100%;
+	z-index: 100000;
+	display: none;
+	transition: all 3s ease-in-out;
+	width: 230%;
+}
+
+.leetcode:hover img {
+	display: block;
 }
 
 .codeProContainer:hover{
 	transform: scale(1.15);
 	box-shadow: 0 0 23px 2px #515182;
+}
+
+.leetcode {
+	transform: none !important;
 }
 
 @media screen and (max-width: 700px){
@@ -516,6 +535,15 @@ width:85%;
 	}
 	.plane-divider{
 		left:3%;
+	}
+	.leetcode img{
+		position: absolute;
+		bottom: -65%;
+		left: 100%;
+		z-index: 100000;
+		display: none;
+		transition: all 3s ease-in-out;
+		width: 130%;
 	}
 }
 
